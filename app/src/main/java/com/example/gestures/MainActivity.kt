@@ -51,12 +51,7 @@ class MainActivity : ComponentActivity() {
                     Drag_Vertical()
                     Ghost()
                     Drag()
-                    /*Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
 
-
-                    )*/
                 }
             }
         }
