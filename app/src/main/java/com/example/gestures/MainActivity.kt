@@ -51,7 +51,6 @@ class MainActivity : ComponentActivity() {
                     Drag_Vertical()
                     Ghost()
                     Drag()
-
                 }
             }
         }
