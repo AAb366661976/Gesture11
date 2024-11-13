@@ -161,6 +161,7 @@ fun Tap() {
                                     if (Number<0){Number=5}
                                 }
 
+
                             }
                         )
                     }
