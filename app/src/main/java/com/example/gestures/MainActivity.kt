@@ -39,6 +39,9 @@ import androidx.compose.ui.unit.IntOffset
 import kotlin.math.roundToInt
 import androidx.compose.ui.layout.onGloballyPositioned
 
+
+
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -55,7 +58,6 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
 }
 
 @Composable
