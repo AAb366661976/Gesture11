@@ -150,7 +150,16 @@ fun Tap() {
                                           },
                             onDragEnd = {msg="長按後拖曳結束"
                                         count+2
-
+                                if (offset2.x >= offset1.x){
+                                    msg = "長按後向右拖曳"
+                                    Number ++
+                                    if (Number>5){Number=0}
+                                }
+                                else{
+                                    msg = "長按後向左拖曳"
+                                    Number --
+                                    if (Number<0){Number=5}
+                                }
 
                             }
                         )
